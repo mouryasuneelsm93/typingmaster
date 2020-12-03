@@ -1,0 +1,131 @@
+body
+{
+	background-color: #2a8fb4!important;
+}
+.box
+{
+	position: absolute;
+	width:50%;
+	height:50vh;
+	background-color: rgba(0,0,0,.1);
+	color:red;
+	margin-top:15%;
+	
+	border-radius: 10px;
+	margin-left: 30%;
+	
+}
+
+.box1
+{
+	position: absolute;
+	width:50%;
+	height:auto;
+	background-color: rgba(0,0,0,.1);
+	color:red;
+	margin-top:15%;
+	display:none;
+	border-radius: 10px;
+	margin-left: 30%;
+	
+}
+h1
+{
+	font-style: italic;
+	color:black;
+}
+.col1
+{
+	border-bottom: 2px solid white;
+}
+.r1
+{
+	margin-top: 20%;
+}
+
+.jumbotron-fluid
+{
+	background-color: white;
+}
+.c1
+{
+	height:100vh;
+	background-color: #007bff;
+}
+.active
+{
+	font-size: 30px;
+	color:white;
+	font-style: italic;
+}
+.active:hover
+{
+	text-decoration: none;
+	color:white;
+}
+.c2
+{
+	
+	background-color: rgba(100,0,0,.5);
+}
+.active1
+{
+	font-size: 25px;
+	color:white;
+	font-style: italic;
+}
+.active1:hover
+{
+	text-decoration: none;
+	color:white;
+}
+.c3
+{
+	
+	height: 20vh;
+	border-bottom: 5px solid grey;
+	
+}
+
+.input
+{
+	width:100%;
+	
+}
+p
+{
+	font-size:20px;
+}
+#time
+{
+	position: absolute;
+	color:black;
+	display: none;
+	margin-left: 82%;
+	top:32%;
+	border:5px solid rgba(0,0,0,.1);
+	width:100px;
+	height:100px;
+	padding-top: 12px;
+	text-align: center;
+	
+}
+p
+{
+	font-size: 25px;
+	color:#0076ff;
+}
+#error
+{
+	position: absolute;
+	color:black;
+	display:none;
+	margin-left: 82%;
+	top:52%;
+	border:5px solid rgba(0,0,0,.1);
+	width:100px;
+	height:100px;
+	padding-top: 12px;
+	text-align: center;
+	
+}
