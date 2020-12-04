@@ -1,19 +1,19 @@
 body
 {
-	background-color: #2a8fb4!important;
+	background-color:  #ccffe6!important;
 }
 .box
 {
 	position: absolute;
 	width:50%;
 	height:50vh;
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,100,0.1);
 	color:red;
 	margin-top:15%;
 	
 	border-radius: 10px;
 	margin-left: 30%;
-	
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
 }
 
 .box1
@@ -27,16 +27,18 @@ body
 	display:none;
 	border-radius: 10px;
 	margin-left: 30%;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
 	
 }
 h1
 {
 	font-style: italic;
-	color:black;
+	color:#007bff;
 }
 .col1
 {
 	border-bottom: 2px solid white;
+
 }
 .r1
 {
@@ -45,7 +47,7 @@ h1
 
 .jumbotron-fluid
 {
-	background-color: white;
+	background-color:  #ffe6cc;
 }
 .c1
 {
@@ -83,7 +85,8 @@ h1
 {
 	
 	height: 20vh;
-	border-bottom: 5px solid grey;
+	border-bottom: 1px solid grey;
+	padding-top: 20px;
 	
 }
 
@@ -99,7 +102,8 @@ p
 #time
 {
 	position: absolute;
-	color:black;
+	color:red;
+	font-size: 20px;
 	display: none;
 	margin-left: 82%;
 	top:32%;
@@ -110,22 +114,52 @@ p
 	text-align: center;
 	
 }
-p
+.p1
 {
 	font-size: 25px;
-	color:#0076ff;
+	
 }
 #error
 {
 	position: absolute;
-	color:black;
+	color:rgba(0,0,100,.9);
 	display:none;
 	margin-left: 82%;
-	top:52%;
+	top:50%;
 	border:5px solid rgba(0,0,0,.1);
 	width:100px;
 	height:100px;
 	padding-top: 12px;
 	text-align: center;
 	
+}
+
+#wpm
+{
+	position: absolute;
+	color:rgba(0,100,0,.9);
+	display:none;
+	margin-left: 82%;
+	top:68%;
+	border:5px solid rgba(0,0,0,.1);
+	width:100px;
+	height:100px;
+	padding-top: 12px;
+	text-align: center;
+	
+}
+h2
+{
+	font-family: 'Abril Fatface', cursive;
+	color:rgba(0,0,100,.9);
+	font-size: 80px;
+
+}
+footer
+{
+	width:100%;
+	background-color: rgba(0,0,100,.9);
+	text-align: center;
+	color:white;
+	font-size:30px;
 }
