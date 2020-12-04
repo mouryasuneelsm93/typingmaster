@@ -23,10 +23,11 @@ var count=0;
 			 	else
 			 	{
 			 		e=b[i];
+			 		document.getElementById('c').innerHTML=e;
 			 		console.log(e,i);
 			 		c=c+1;
 			 	}
-			 	document.getElementById('c').innerHTML=c;
+			 	document.getElementById('e1').innerHTML=c;
 			 	console.log("error="+c);
 			 }
 			 if(c==0)
@@ -47,7 +48,7 @@ var count=0;
 			 }
 			 else 
 			 {
-			 	 document.getElementById('p3').style.backgroundImage="url('error.png')";	
+			 	// document.getElementById('p3').style.backgroundImage="url('error.png')";	
 			 } 
 
 		}
@@ -59,9 +60,9 @@ var count=0;
 			if(count==60)
 			 {
 			 	
-			 	min1=min1+1;
+			 	min1=count/60;
 			 	document.getElementById('min').innerHTML=parseInt(min1);
-			 	count=0;
+			 	
 			 }
 			 ;document.getElementById('timer').innerHTML=count; }, 1000);
 			
