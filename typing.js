@@ -20,12 +20,18 @@ var count=0;
 			 	{
 			 		
 			 	}
+			 	else if(b.value.length==0)
+			 	{
+			 		document.getElementById('c').innerHTML=0;
+			 	}
 			 	else
 			 	{
+			 		
 			 		e=b[i];
 			 		document.getElementById('c').innerHTML=e;
 			 		console.log(e,i);
 			 		c=c+1;
+			 		
 			 	}
 			 	document.getElementById('e1').innerHTML=c;
 			 	console.log("error="+c);

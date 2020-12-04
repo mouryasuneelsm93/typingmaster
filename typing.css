@@ -2,210 +2,8 @@ body
 {
 	background-color:  #ccffe6!important;
 }
-@media(min-width: 102px)
-{
-.box
-{
-	position: absolute;
-	width:50%;
-	height:50vh;
-	background-color: rgba(0,0,100,0.1);
-	color:red;
-	margin-top:15%;
-	border-radius: 10px;
-	margin-left: 30%;
-	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
-	z-index: 999;
-}
-.box2
-{
-	display: none;
-	position: absolute;
-	width:50%;
-	height:50vh;
-	background-color: rgba(0,0,100,0.1);
-	color:rgba();
-	margin-top:15%;
-	border-radius: 10px;
-	margin-left: 30%;
-	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
-}
-h4
-{
-	font-style: italic;
-	color:rgba(100,0,0,.5);
-	font-size: 30px;	
-}
-.box1
-{
-	position: absolute;
-	width:50%;
-	height:auto;
-	background-color: rgba(0,0,0,.1);
-	color:red;
-	margin-top:15%;
-	display:none;
-	border-radius: 10px;
-	margin-left: 30%;
-	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
-	
-}
-h1
-{
-	font-style: italic;
-	color:#007bff;
-}
-.col1
-{
-	border-bottom: 2px solid white;
 
-}
-.r1
-{
-	margin-top: 0%;
-}
-.r2
-{
-	margin-top: 20%;
-}
-.jumbotron-fluid
-{
-	background-color:  #ffe6cc;
-}
-.c1
-{
-	height:100vh;
-	background-color: #007bff;
-}
-.active
-{
-	font-size: 30px;
-	color:white;
-	font-style: italic;
-}
-.active:hover
-{
-	text-decoration: none;
-	color:white;
-}
-.c2
-{
-	
-	background-color: rgba(100,0,0,.5);
-}
-.active1
-{
-	font-size: 25px;
-	color:white;
-	font-style: italic;
-}
-.active1:hover
-{
-	text-decoration: none;
-	color:white;
-}
-.c3
-{
-	
-	height: 20vh;
-	border-bottom: 1px solid grey;
-	padding-top: 20px;
-	
-}
 
-.input
-{
-	width:100%;
-	
-}
-
-#time
-{
-	position: absolute;
-	color:red;
-	font-size: 20px;
-	display: none;
-	margin-left: 82%;
-	top:32%;
-	border:5px solid rgba(0,0,0,.1);
-	width:100px;
-	height:100px;
-	padding-top: 12px;
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px 5px grey;
-	
-}
-#p3
-{
-	font-size: 25px;
-	
-}
-.p1
-{
-	font-size: 25px;
-	
-}
-#error
-{
-	position: absolute;
-	color:rgba(0,0,100,.9);
-	display:none;
-	margin-left: 82%;
-	top:52%;
-	border:5px solid rgba(0,0,0,.1);
-	width:100px;
-	height:100px;
-	padding-top: 12px;
-
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px 5px grey;
-	
-}
-
-#wpm
-{
-	position: absolute;
-	color:rgba(0,100,0,.9);
-	display:none;
-	margin-left: 82%;
-	top:72%;
-	border:5px solid rgba(0,0,0,.1);
-	width:100px;
-	height:100px;
-	padding-top: 12px;
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px 5px grey;
-}
-h2
-{
-	font-family: 'Abril Fatface', cursive;
-	color:rgba(0,0,100,.9);
-	font-size: 80px;
-
-}
-footer
-{
-	width:100%;
-	background-color: rgba(0,0,100,.9);
-	text-align: center;
-	color:white;
-	font-size:30px;
-}
-#w
-{
-	font-size: 50px;
-	color:rgba(0,0,100,.9);
-}
-.c
-{
-	font-size: 50px;
-	color:rgba(0,0,100,.9);
-	padding-bottom: 10px;
-}
-}
 .box
 {
 	position: absolute;
@@ -412,4 +210,70 @@ footer
 {
 	font-size: 50px;
 	color:rgba(0,0,100,.9);
+}
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#id1
+	{
+		font-size: 25px;
+		margin-top: 0px;
+	}
+	#id2
+	{
+		margin-top: 40%;
+		width:90%;
+		margin-left: 10px;
+		margin-right: 10px;
+		height:auto;
+		padding-bottom: 10px;
+	}
+	#id3
+	{
+		margin-top: 40%;
+		width:90%;
+		margin-left: 10px;
+		margin-right: 10px;
+		height:auto;
+		padding-bottom: 10px;
+	}
+	#id4
+	{
+		margin-top: 40%;
+		width:90%;
+		margin-left: 10px;
+		margin-right: 10px;
+		height:auto;
+		padding-bottom: 10px;
+	}
+	#time
+	{
+		position: absolute;
+		margin-left: 10px;
+		margin-top: 90%;
+		width:90%;
+
+	}
+	#error
+	{
+		position: absolute;
+		margin-left: 10px;
+		margin-top: 90%;
+		width:90%;
+
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+	#none
+	{
+		display: none;
+	}
+	#footer
+	{
+		display:none;
+	}
 }
