@@ -10,12 +10,29 @@ body
 	background-color: rgba(0,0,100,0.1);
 	color:red;
 	margin-top:15%;
-	
 	border-radius: 10px;
 	margin-left: 30%;
 	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
 }
-
+.box2
+{
+	display: none;
+	position: absolute;
+	width:50%;
+	height:50vh;
+	background-color: rgba(0,0,100,0.1);
+	color:rgba();
+	margin-top:15%;
+	border-radius: 10px;
+	margin-left: 30%;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,.5);
+}
+h4
+{
+	font-style: italic;
+	color:rgba(100,0,0,.5);
+	font-size: 30px;	
+}
 .box1
 {
 	position: absolute;
@@ -42,9 +59,12 @@ h1
 }
 .r1
 {
+	margin-top: 8%;
+}
+.r2
+{
 	margin-top: 20%;
 }
-
 .jumbotron-fluid
 {
 	background-color:  #ffe6cc;
@@ -112,6 +132,13 @@ p
 	height:100px;
 	padding-top: 12px;
 	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px grey;
+	
+}
+#p3
+{
+	font-size: 25px;
 	
 }
 .p1
@@ -125,12 +152,14 @@ p
 	color:rgba(0,0,100,.9);
 	display:none;
 	margin-left: 82%;
-	top:50%;
+	top:52%;
 	border:5px solid rgba(0,0,0,.1);
 	width:100px;
 	height:100px;
 	padding-top: 12px;
 	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px grey;
 	
 }
 
@@ -140,13 +169,14 @@ p
 	color:rgba(0,100,0,.9);
 	display:none;
 	margin-left: 82%;
-	top:68%;
+	top:72%;
 	border:5px solid rgba(0,0,0,.1);
 	width:100px;
 	height:100px;
 	padding-top: 12px;
 	text-align: center;
-	
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px grey;
 }
 h2
 {
@@ -162,4 +192,9 @@ footer
 	text-align: center;
 	color:white;
 	font-size:30px;
+}
+#w
+{
+	font-size: 50px;
+	color:rgba(0,0,100,.9);
 }

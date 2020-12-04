@@ -5,7 +5,7 @@ var count=0;
 			document.querySelector('.box1').style.display='block';
 			document.getElementById('time').style.display='block';
 			document.getElementById('error').style.display='block';
-			document.getElementById('wpm').style.display='block';	
+			
 		}
 		function check()
 		{
@@ -33,24 +33,41 @@ var count=0;
 			 {
 			 	console.log("count",count);
 			 	c1=b.length;
-			 	console.log("length",c1);
 				wpm=(c1/5)/(count/60);
 				console.log("word",wpm);
 				document.getElementById("w").innerHTML=parseInt(wpm);
 				document.getElementById('p3').style.backgroundImage = "";
+				document.getElementById('p3').style.backgroundColor = "";
 			 	end();
+			 	document.querySelector('.box1').style.display='none';
+				document.querySelector('.box2').style.display='block';
+				document.getElementById('time').style.display='none';
+				document.getElementById('error').style.display='none';
+
 			 }
 			 else 
 			 {
-			 	 document.getElementById('p3').style.backgroundImage="url('error.png')";
-			 	 // document.getElementById('p3').style.backgroundSize="cover";
+			 	 document.getElementById('p3').style.backgroundImage="url('error.png')";	
 			 } 
+
 		}
 		function start()
 		{
-			tim=setInterval(function(){ count=count+1;document.getElementById('timer').innerHTML=count; }, 1000);
+			var min1=0; 
+			tim=setInterval(function(){ count=count+1
+				console.log(count);
+			if(count==60)
+			 {
+			 	
+			 	min1=min1+1;
+			 	document.getElementById('min').innerHTML=parseInt(min1);
+			 	count=0;
+			 }
+			 ;document.getElementById('timer').innerHTML=count; }, 1000);
+			
 		}
 		function end()
 		{
 			clearInterval(tim);
+			
 		}

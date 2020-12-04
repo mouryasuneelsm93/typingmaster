@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>typing master</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+ 	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" href="typing.css">
+ 	<script type="text/javascript" src="typing.js"></script>
+</head>
+<body>
+	<div class="jumbotron-fluid">
+			<div class="box">
+				<div class="row p-3 ">
+					<div class="col col1">
+						<h1>Test Your Typing Speed</h1>
+					</div>
+				</div>
+				<div class="row r2">
+					<div class="col-sm-3">
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" class="btn btn-danger form-control" 
+						onclick="hide()">Take a Test</button>
+					</div>
+					<div class="col-sm-3">
+					</div>
+				</div>
+			</div>
+			<div class="box2">
+				<div class="row p-3 ">
+					<div class="col col1 text-center">
+						<h1>Test Your Typing Speed</h1>
+					</div>
+				</div>
+				<div class="row r1">
+					<div class="col-sm-3">
+					</div>
+					<div class="col-sm-6 text-center">
+						<h4>Your Typing Speed is <span id="w">0</span> WPM</h4>
+					</div>
+					<div class="col-sm-3">
+					</div>
+				</div>
+			</div>
+			<div class="box1">
+				<div class="row p-3 ">
+					<div class="col col1">
+						<textarea type="text" class="form-control p1" rows="3" readonly="" id="text1">Comparing out of order</textarea>
+					</div>
+				</div>
+				<div class="row p-1">
+					
+					<div class="col-sm-12">
+						<textarea type="text" class="input form-control" onfocus="start()" rows="5" id="p3" onkeyup="check()" ></textarea>  
+					</div>
+					
+				</div>
+				
+			</div>
+	</div>
+	<div class="jumbotron-fluid">
+		<div class="row">
+			<div class="col-sm-2 c1 pt-3">
+				<h3><a href="" class="active">@<u>Typing Test</u></a></h3>
+				<div class="row">
+					<div class="col text-center pt-3 pb-3 c2"><a href="" class="active1">Typing Practice</a></div>
+				</div>
+				<div class="row">
+					<div class="col text-center pt-3 pb-3 c2"><a href="" class="active1">Typing Test</a></div>
+				</div>
+				<div class="row">
+					<div class="col text-center pt-3 pb-3 c2"><a href="" class="active1">Typing Tricks</a></div>
+				</div>
+				<div class="row">
+					<div class="col text-center pt-3 pb-3 c2"><a href="" class="active1">Error</a></div>
+				</div>
+				
+				
+			</div>
+			<div class="col-sm-9 c3 text-center">
+				<h2>Typing Master</h2>
+			</div>
+
+		</div>
+		<div id="time">
+			Timer
+			<p><span id="hour">0</span>:<span id="min">0</span>:<span id="timer">0</span></p>
+		</div>
+		<div id="error">
+			Error
+			<p id="c">0</p>
+		</div>
+		
+	</div>
+<footer>Footer</footer>
+						
+
+</body>
+</html>
