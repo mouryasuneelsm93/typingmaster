@@ -59,7 +59,7 @@ h1
 }
 .r1
 {
-	margin-top: 8%;
+	margin-top: 0%;
 }
 .r2
 {
@@ -194,6 +194,11 @@ footer
 	font-size:30px;
 }
 #w
+{
+	font-size: 50px;
+	color:rgba(0,0,100,.9);
+}
+#c
 {
 	font-size: 50px;
 	color:rgba(0,0,100,.9);
