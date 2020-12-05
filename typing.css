@@ -215,7 +215,7 @@ footer
 
 
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 	#id1
 	{
 		font-size: 25px;
@@ -248,11 +248,15 @@ footer
 		height:auto;
 		padding-bottom: 10px;
 	}
+	.c3
+	{
+		height:12vh;
+	}
 	#time
 	{
 		position: absolute;
 		margin-left: 10px;
-		margin-top: 90%;
+		margin-top: 95%;
 		width:90%;
 
 	}
@@ -260,7 +264,7 @@ footer
 	{
 		position: absolute;
 		margin-left: 10px;
-		margin-top: 90%;
+		margin-top: 95%;
 		width:90%;
 
 	}
